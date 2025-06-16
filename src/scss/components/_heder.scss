@@ -1,0 +1,35 @@
+header{
+  h {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #22202E;
+  }
+
+  .header {
+    width: 1848px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+  }
+
+  .logo{
+    position: absolute;
+    margin-left: 10px;
+  }
+
+  .shap {
+    display: flex;
+    gap: 100px;
+    margin-top: 70px;
+    margin-left: 500px;
+  }
+  .shap2{
+    display: flex;
+    gap: 50px;
+    margin-left: 800px;
+    margin-top: 70px;
+  }
+
+}
