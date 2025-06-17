@@ -13,7 +13,135 @@
 @use 'components/button';
 @use 'components/card';
 @use 'components/heder';
-
+@use 'components/shop';
 body {
-  background-color: var(--main-color);
+  background-color: white;
+  width: 1440px;
+
+  .ocn5 {
+    display: flex;
+    background-color: #FCF8F3;
+    justify-content: center;
+    gap: 400px;
+    padding-top: 60px;
+    margin-top: 200px;
+  }
+
+  .strelki {
+    width: 1440px;
+    height: 100px;
+    background: #F9F1E7;
+    display: flex;
+    gap: 35px;
+    padding-left: 60px;
+    align-items: center;
+
+    &__text {
+      font-size: 16px;
+      color: #9f9f9f;
+    }
+
+    &__span {
+      font-size: 16px;
+      color: black;
+    }
+
+    &__block {
+      border-left: 1px solid #9f9f9f;
+      padding-left: 20px;
+      display: flex;
+      align-items: center;
+      height: 37px;
+    }
+  }
+
+  .descrip {
+    align-items: center;
+    border-top: 1px solid #9f9f9f;
+    border-bottom: 1px solid #9f9f9f;
+    padding: 20px;
+
+    &__title {
+      align-items: center;
+      gap: 40px;
+      display: flex;
+      justify-content: center;
+    }
+
+    &__span {
+      font-size: 24px;
+      color: black;
+    }
+
+    &__description {
+      width: 1026px;
+      font-size: 16px;
+      color: #9f9f9f;
+    }
+
+    &__abzac {
+      transform: translateX(15%);
+    }
+
+    &__text {
+      font-size: 24px;
+      color: #9f9f9f;
+    }
+
+    &__img {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin-bottom: 20px;
+    }
+  }
+
+  .shop__karti {
+    margin-top: 50px;
+
+    &__zag {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 15px;
+      font-size: 36px;
+      font-weight: bolder;
+    }
+  }
+
+  .btn1 {
+    margin-left: 42%;
+    margin-bottom: 60px;
+    width: 245px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: bolder;
+    color: #B88E2F;
+    background: white;
+    border: 1px solid #B88E2F;
+    padding: 15px;
+  }
+
+  .cardProd {
+    width: 1440px;
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+    padding-bottom: 20px;
+
+    &__block {
+      width: 285px;
+      position: relative;
+    }
+
+    &__nov {
+      position: relative;
+    }
+  }
+  .comp_shop{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
 }
+
+

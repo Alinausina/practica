@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <title>Document</title>
+</head>
+<body>
+@@include('../components/_heder.html')
+<div class="strelki">
+    <div>
+        <p class="strelki__text">Home</p>
+    </div>
+
+    <div>
+        <span class="strelki__span"> > </span>
+    </div>
+
+    <div>
+        <p class="strelki__text">Shop</p>
+    </div>
+
+    <div>
+        <span class="strelki__span"> > </span>
+    </div>
+
+    <div class="strelki__block">
+        <span class="strelki__span">Asgaard sofa</span>
+    </div>
+</div>
+<div class="comp_shop">
+@@include('../components/_shop.html', {"img1": "./assets/images/shop1", "img2": "./assets/images/shop2",
+"img3": "./assets/images/shop3", "img4": "./assets/images/shop4", "img_glav": "./assets/images/shop5",
+"title": "Asgaard sofa", "price": "Rs. 250,000.00", "star":"./assets/images/stars",
+"sizeNow":"L", "size1":"XL", "size2":"XS",})
+</div>
+
+<div class="descrip">
+    <div class="descrip__title">
+        <div>
+            <span class="descrip__span">Description</span>
+        </div>
+
+        <div>
+            <p class="descrip__text">Additional Information</p>
+        </div>
+
+        <div>
+            <p class="descrip__text">Reviews [5]</p>
+        </div>
+    </div>
+    <div class="descrip__abzac">
+        <p class="descrip__description">Embodying the raw, wayward spirit of rock ‘n’ roll, the Kilburn portable active stereo speaker takes the unmistakable look and
+            sound of Marshall, unplugs the chords, and takes the show on the road.</p>
+        <p class="descrip__description">Weighing in under 7 pounds, the Kilburn is a lightweight piece of vintage styled engineering. Setting the bar as one of the loudest
+            speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange
+            and extended highs for a sound that is both articulate and pronounced. The analogue knobs allow you to fine tune the controls
+            to your personal preferences while the guitar-influenced leather strap enables easy and stylish travel.</p>
+    </div>
+    <div class="descrip__img">
+        <div><img src="./assets/images/shop.webp" alt="."/></div>
+        <div><img src="./assets/images/shop.webp" alt="."/></div>
+    </div>
+</div>
+<div class="shop__karti">
+    <h class="shop__karti__zag">Related Products</h>
+    <div class="cardProd">
+        <div class="cardProd__block">
+                @@include('../components/_card.html', {
+                "img": "./assets/images/photo1",
+                "alt": "Карточка5",
+                "title": "Grifo",
+                "text": "Night lamp",
+                "price": "1.500.000",
+                "sale": false,
+            "sale": "3.500.000",
+                })
+            </div>
+
+            <div class="cardProd__block">
+                    @@include('../components/_card.html', {
+                    "img": "./assets/images/photo2",
+                    "alt": "Карточка6",
+                    "title": "Muggo",
+                    "text": "Small mug",
+                    "price": "150.000",
+                    "sale": false,
+                    })
+                </div>
+
+                <div class="cardProd__block">
+                        @@include('../components/_card.html', {
+                        "img": "./assets/images/photo3",
+                        "alt": "Карточка7",
+                        "title": "Pingky",
+                        "text": "Cute bed set",
+                        "price": "7.000.000",
+                        "sale": "14.000.000",
+                        })
+                    </div>
+
+
+                    <div class="cardProd__block">
+                            @@include('../components/_card.html', {
+                            "img": "./assets/images/photo4",
+                            "alt": "Карточка8",
+                            "title": "Potty",
+                            "text": "Minimalist flower pot",
+                            "price": "500.000",
+                            "sale": false,
+                            })
+                        </div>
+                    </div>
+                </div>
+                <button type="submit" class="btn1">Show More</button>
+<!--                @@include('../components/_footer.html')-->
+<!--                ФУТЕР СДЕЛАЕШЬ САМА!!!!!!! КОД ВЫШЕ ЭТО ПРИМЕР ВСТАВКИ ФУТЕРА-->
+</body>
+</html>

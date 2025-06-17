@@ -1,15 +1,37 @@
 .card {
   &__body {
-    background: red;
-    border-radius: var(--border-radius-default);
-    padding: var(--padding-block) var(--padding-inline);
+    margin-top: -4px;
+    width: 265px;
+    height: 145px;
+    padding-top: 20px;
+    padding-left: 20px;
+    background: #F4F5F7;
   }
 
   &__title {
+    font-size: 24px;
+    font-weight: bolder;
+    color: #3A3A3A;
     font-family: var(--font-family-title), sans-serif;
   }
 
   &__text {
-
+    font-size: 16px;
+    font-weight: bolder;
+    color: #898989;
   }
+
+  &__price {
+    font-size: 20px;
+    font-weight: bolder;
+    color:  #3A3A3A;
+  }
+
+  &__sale{
+    font-size: 16px;
+    color: #898989;
+    text-decoration: line-through;
+    margin-left: 20px;
+  }
+
 }

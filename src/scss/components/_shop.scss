@@ -1,0 +1,134 @@
+.shop{
+  width: 1241px;
+  height: 730px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 45px;
+  &__img{
+    margin-top: 20px;
+  }
+  &__right{
+    padding-left: 40px;
+    width: 605px;
+  }
+  &__star{
+    margin-top: 20px;
+    display: flex;
+    margin-bottom: 20px;
+  }
+  &__size{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    gap: 15px;
+    &__first{
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      width: 30px;
+      height: 30px;
+      background: #B88E2F;
+      border-radius: 10px;
+    }
+    &__next{
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      width: 30px;
+      height: 30px;
+      background: #F9F1E7;
+      border-radius: 10px;
+    }
+  }
+  &__krugi{
+    padding-top: 10px;
+    display: flex;
+    gap: 15px;
+    margin-bottom: 10px;
+  }
+  &__button{
+    padding-top: 10px;
+    margin-bottom: 40px;
+    display: flex;
+    gap: 15px;
+  }
+  &__niz{
+    border-top: 1px solid #D9D9D9;
+    padding-top: 30px;
+    display: flex;
+    gap: 25px;
+    &__text{
+      font-size: 16px;
+      color: #9f9f9f;
+      height: 18px;
+    }
+  }
+  &__mess{
+    display: flex;
+    height: 18px;
+    gap: 25px;
+    align-items: center;
+  }
+  &__title{
+    font-size: 42px;
+  }
+  &__price{
+    font-size: 24px;
+    color: #9f9f9f;
+  }
+  &__cost{
+    font-size: 13px;
+    color: #9f9f9f;
+  }
+  &__starcost{
+    border-left: 1px solid #9f9f9f;
+    padding-left: 20px;
+    margin-left: 15px;
+  }
+  &__text{
+    font-size: 14px;
+  }
+  &__span{
+    font-size: 14px;
+    color: white;
+  }
+  &__span2{
+    font-size: 14px;
+    color: black;
+  }
+  &__kolvo{
+    width: 123px;
+    height: 64px;
+    background: white;
+    border: 1px solid #9f9f9f;
+    border-radius: 10px;
+    font-size: 16px;
+  }
+  &__buttons{
+    width: 215px;
+    height: 64px;
+    background: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+  }
+  &__krug1{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #816DFA;
+  }
+  &__krug2{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: black;
+  }
+  &__krug3{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #B88E2F;
+  }
+}
