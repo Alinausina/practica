@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0449b401-a862-4222-9bc6-eade8bd74931" name="Changes" comment="нифига не получилось" />
+    <list default="true" id="0449b401-a862-4222-9bc6-eade8bd74931" name="Changes" comment="нифига не получилось">
+      <change afterPath="$PROJECT_DIR$/src/components/_futer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/bedroom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/components/_futer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/images/bedroom.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/images/bedroom.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/images/room.webp" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/images/room.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/_heder.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/_heder.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,26 +55,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JavaScript Debug.header.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.index.html (1).executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;js.buildTools.gulp.gulp_package_dir&quot;: &quot;X:/practica/node_modules/gulp&quot;,
-    &quot;last_opened_file_path&quot;: &quot;X:/practica&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrain\\WebStorm\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug._heder.html.executor": "Run",
+    "JavaScript Debug.header.html.executor": "Run",
+    "JavaScript Debug.index.html (1).executor": "Run",
+    "JavaScript Debug.index.html.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "js.buildTools.gulp.gulp_package_dir": "X:/practica/node_modules/gulp",
+    "last_opened_file_path": "X:/practica",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrain\\WebStorm\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="X:\practica\src\components" />
@@ -73,7 +84,10 @@
       <recent name="X:\practica\dist\images" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.header.html">
+  <component name="RunManager" selected="JavaScript Debug._heder.html">
+    <configuration name="_heder.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/practica/src/components/_heder.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="header.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/practica/src/html/components/header.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -96,6 +110,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug._heder.html" />
         <item itemvalue="JavaScript Debug.header.html" />
         <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.index.html" />
@@ -125,6 +140,7 @@
       <workItem from="1749634266407" duration="222000" />
       <workItem from="1750050072482" duration="1460000" />
       <workItem from="1750051894199" duration="9323000" />
+      <workItem from="1750223608786" duration="6912000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -163,6 +179,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />

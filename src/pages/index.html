@@ -9,7 +9,7 @@
     <title>Document</title>
 </head>
 <body>
-
+@@include('../components/_heder.html')
 <div class="ocn">
     <img src = "./assets/images/ocn.webp">
     <div class="bloc1">
@@ -43,7 +43,53 @@
     </div>
 </div>
 
+@@include('../components/_card.html', {
+"img": "./assets/images/photo1","alt": "Карточка1",
+"title": "Syltherine","text": "Stylish cafe chair",
+"price": "2.500.000","sale": "3.500.000",
+})
 
+@@include('../components/_card.html', {
+"img": "./assets/images/photo2","alt": "Карточка2",
+"title": "Leviosa","text": "Stylish cafe chair",
+"price": "2.500.000",
+})
+
+@@include('../components/_card.html', {
+"img": "./assets/images/photo3","alt": "Карточка3",
+"title": "Lolito","text": "Luxury big sofa",
+"price": "7.000.000","sale": "14.000.000",
+})
+
+@@include('../components/_card.html', {
+"img": "./assets/images/photo4","alt": "Карточка4",
+"title": "Respira","text": "Outdoor bar table and stool",
+"price": "500.000",
+})
+
+@@include('../components/_card.html', {
+"img": "./assets/images/photo5","alt": "Карточка5",
+"title": "Grifo","text": "Night lamp",
+"price": "1.500.000",
+})
+
+@@include('../components/_card.html', {
+"img": "./assets/images/photo6","alt": "Карточка6",
+"title": "Muggo","text": "Small mug",
+"price": "1.500.000",
+})
+
+@@include('../components/_card.html', {
+"img": "./assets/images/photo7","alt": "Карточка7",
+"title": "Pingky","text": "Cute bed set",
+"price": "7.000.000","sale": "14.000.000",
+})
+
+@@include('../components/_card.html', {
+"img": "./assets/images/photo1","alt": "Карточка8",
+"title": "Potty","text": "Minimalist flower pot",
+"price": "500.000",
+})
 
 <div class="ocn3">
     <button>
